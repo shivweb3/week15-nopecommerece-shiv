@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Page Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Page Test</h1>
+<p>
+  Test duration: 39.345s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.CellPhonesPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully
+      </td>
+  <td class="duration">
+    0.174s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse Hover on “Electronics” Tab[[ChromeDriver: chrome on WINDOWS (7b7421d4b7ddfbd91edba72eccee1ec4)] -> xpath: //div[@class='header-menu']/ul[1]/li[2]/a]
+                                Mouse Hover on “Cell phones” and click[[ChromeDriver: chrome on WINDOWS (7b7421d4b7ddfbd91edba72eccee1ec4)] -> xpath: //div[@class='header-menu']/ul[1]/li[2]/ul/li[2]/a[1]]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfullyThu_Dec_15_16_59_33_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfullyThu_Dec_15_16_59_33_GMT_2022.jpg><img src=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfullyThu_Dec_15_16_59_33_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementNotInteractableException: element not interactable: https://demo.nopcommerce.com/cell-phones has no size and location<br/>
+&nbsp; (Session info: chrome=107.0.5304.122)<br/>
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [7b7421d4b7ddfbd91edba72eccee1ec4, actions {actions=[org.openqa.selenium.interactions.Sequence@5f2afe62]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\NIRAJ\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49572}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49572/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 7b7421d4b7ddfbd91edba72eccee1ec4</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)<br />
+              org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)<br />
+              org.openqa.selenium.interactions.Actions.perform(Actions.java:536)<br />
+              com.nopcommerce.demo.utility.Utility.mouseHoverToElementAndClick(Utility.java:258)<br />
+              com.nopcommerce.demo.pages.HomePage.mouseHoverToCellPhoneLinkAndClick(HomePage.java:96)<br />
+              com.nopcommerce.demo.testsuite.CellPhonesPageTest.verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully(CellPhonesPageTest.java:40)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.CellPhonesPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToCellPhonesPageSuccessfully
+      </td>
+  <td class="duration">
+    0.872s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse Hover on “Electronics” Tab[[ChromeDriver: chrome on WINDOWS (fc0feed6beca52a0b1685e1f3e3e21b5)] -> xpath: //div[@class='header-menu']/ul[1]/li[2]/a]
+                                Mouse Hover on “Cell phones” and click[[ChromeDriver: chrome on WINDOWS (fc0feed6beca52a0b1685e1f3e3e21b5)] -> xpath: //div[@class='header-menu']/ul[1]/li[2]/ul/li[2]/a[1]]
+                                Verify the text “Cell phones”[[ChromeDriver: chrome on WINDOWS (fc0feed6beca52a0b1685e1f3e3e21b5)] -> xpath: //h1[text()='Cell phones']]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyUserShouldNavigateToCellPhonesPageSuccessfullyThu_Dec_15_16_59_38_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyUserShouldNavigateToCellPhonesPageSuccessfullyThu_Dec_15_16_59_38_GMT_2022.jpg><img src=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyUserShouldNavigateToCellPhonesPageSuccessfullyThu_Dec_15_16_59_38_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.DesktopPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductAddedToShoppingCartSuccessFully
+      </td>
+  <td class="duration">
+    15.410s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on Computer Menu Tab[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@class='header-menu']/ul[1]/li//a[text()='Computers ']]
+                                Click on Desktop[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@class='item-grid']/div[1]/div[1]/h2/a]
+                                Select Sort By position "Name: Z to A"[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: products-orderby]
+                                Click on add to cart of product "Build your own computer"[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@data-productid='1']/div[2]/div[3]/div[2]/button[1]]
+                                Verify the Text 'Build your own computer'[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //h1[contains(text(),'Build your own computer')]]
+                                Select2.2 GHz Intel Pentium Dual-Core E2200processor[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: product_attribute_1]
+                                Select 8GB [+$60.00] RAM[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //select[@id='product_attribute_2']]
+                                Select  '400 GB [+$100.00]'[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //input[@id='product_attribute_3_7']]
+                                Select OS radio 'Vista Premium [+$60.00]'[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //input[@id='product_attribute_4_9']]
+                                Check Two Check boxes 'Microsoft Office [+$50.00]' and 'Total Commander [+$5.00]'[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //input[@id='product_attribute_5_12']]
+                                Verify the price '$1,475.00'[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //span[text()='$1,475.00']]
+                                Click on 'ADD TO CARD' Button[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //button[@id='add-to-cart-button-1']]
+                                Verify the Message 'The product has been added to your shopping cart' on Top green Bar[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@class='bar-notification success']]
+                                On green bar Close the bar clicking on the cross button.[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //body/div[@id='bar-notification']/div[1]/span[1]]
+                                Then MouseHover on "Shopping cart" and Click on "GO TO CART" button.[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //span[contains(text(),'Shopping cart')]]
+                                Click on "GO TO CART" button.[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //button[contains(text(),'Go to cart')]]
+                                Verify the message "Shopping cart" is display[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //h1[contains(text(),'Shopping cart')]]
+                                Change the Qty to 2[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //td[@class='quantity']/input]
+                                Click on 'Update shopping cart'[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //button[@id='updatecart']]
+                                Verify the Total"$2,950.00" is display[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //td[@class= 'subtotal']/span]
+                                Click on checkbox “I agree with the terms of service”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //input[@id='termsofservice']]
+                                Click on “CHECKOUT button[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //button[@id='checkout']]
+                                Verify the Text “Welcome, Please Sign In!”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]
+                                Click on “CHECKOUT AS GUEST” Tab[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //button[contains(text(),'Checkout as Guest')]]
+                                Enter Firstname Abc to Firstname field [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_FirstName]
+                                Enter LastName Xyz to LastName field [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_LastName]
+                                Enter Email test123@gmail.com to Email field [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_Email]
+                                Select country [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_CountryId]
+                                Enter City[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_City]
+                                Enter Address Line 1[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_Address1]
+                                Enter Zip code [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_ZipPostalCode]
+                                Enter PhoneNumber[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: BillingNewAddress_PhoneNumber]
+                                Click on “CONTINUE”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@id='billing-buttons-container']/button[4]]
+                                Click on Radio Button “Next Day Air($0.00)”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: shippingoption_1]
+                                Click on “CONTINUE”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@id='shipping-method-buttons-container']/button]
+                                Select Radio Button “Credit Card”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //input[@id='paymentmethod_1']]
+                                Click on “CONTINUE”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@id='payment-method-buttons-container']/button]
+                                Select “Master card” From Select credit card dropdown[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: CreditCardType]
+                                Enter CardHolder NameAbc Xyz to CardHolder name field [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: CardholderName]
+                                Enter Card Number5555 5555 5555 4444 to Card Number field [[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: CardNumber]
+                                Select Expiry Month[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: ExpireMonth]
+                                Select Expiry Year[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: ExpireYear]
+                                Enter Card coder123to card code field[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> id: CardCode]
+                                Click on “CONTINUE”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@id='payment-info-buttons-container']/button]
+                                Verify “Payment Method” is “Credit Card”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@class='payment-method-info']/ul/li]
+                                 Verify “Shipping Method” is “Next Day Air”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@class='shipping-method-info']/ul/li]
+                                  Verify Total is “$2,950.00”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@class='shipping-method-info']/ul/li]
+                                Click on “CONFIRM”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //div[@id='confirm-order-buttons-container']//button]
+                                Verify the Text “Thank You”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //h1[text()='Thank you']]
+                                Verify the message “Your order has been successfully processed!”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //strong[text()='Your order has been successfully processed!']]
+                                Click on “CONTINUE”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //button[@class='button-1 order-completed-continue-button']]
+                                Verify the text “Welcome to our store”[[ChromeDriver: chrome on WINDOWS (11aeb9e36c9ae1b4adacc9fb6dd089dd)] -> xpath: //h2[text()='Welcome to our store']]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyThu_Dec_15_16_59_56_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyThu_Dec_15_16_59_56_GMT_2022.jpg><img src=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyProductAddedToShoppingCartSuccessFullyThu_Dec_15_16_59_56_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyProductArrangeInAlphabeticalOrder
+      </td>
+  <td class="duration">
+    2.225s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on Computer Menu Tab[[ChromeDriver: chrome on WINDOWS (05e395e1b029b24168ff8b2aa80fbe62)] -> xpath: //div[@class='header-menu']/ul[1]/li//a[text()='Computers ']]
+                                Click on Desktop[[ChromeDriver: chrome on WINDOWS (05e395e1b029b24168ff8b2aa80fbe62)] -> xpath: //div[@class='item-grid']/div[1]/div[1]/h2/a]
+                                Select Sort By position "Name: Z to A"[[ChromeDriver: chrome on WINDOWS (05e395e1b029b24168ff8b2aa80fbe62)] -> id: products-orderby]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyProductArrangeInAlphabeticalOrderThu_Dec_15_17_00_01_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyProductArrangeInAlphabeticalOrderThu_Dec_15_17_00_01_GMT_2022.jpg><img src=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyProductArrangeInAlphabeticalOrderThu_Dec_15_17_00_01_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuite.TopMenuTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToPageSuccessfullyFromTopMenuTabClick
+      </td>
+  <td class="duration">
+    1.078s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on the menu whatever name is passed as parameter[[[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li], [[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> xpath: //div[@class = 'header-menu']/ul/li]]
+                                Verify page navigate to each tab whatever passed[[ChromeDriver: chrome on WINDOWS (07a4fcd63eb670f7f672a504fef8cda3)] -> css selector: div.page-title]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyUserShouldNavigateToPageSuccessfullyFromTopMenuTabClickThu_Dec_15_17_00_07_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyUserShouldNavigateToPageSuccessfullyFromTopMenuTabClickThu_Dec_15_17_00_07_GMT_2022.jpg><img src=C:\Users\NIRAJ\IdeaProjects\week15-nopcommerce-nirajpatel/test-output/html/verifyUserShouldNavigateToPageSuccessfullyFromTopMenuTabClickThu_Dec_15_17_00_07_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
